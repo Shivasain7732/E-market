@@ -1,0 +1,217 @@
+/* index.html*/
+body {
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* div{
+    border: 1px solid gray;
+    padding: 2px;
+} */
+/*slider*/
+.cart-badge {
+    position: relative;
+    top: -15px;
+    left: -10px;
+}
+
+.form-search input,
+.form-search button {
+    border-radius: 0;
+}
+
+.nav-item:hover {
+    background-color: #ffffff33;
+}
+
+a.dropdown-item {
+    color: white !important;
+    text-decoration: none;
+}
+
+a.dropdown-item:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+.carousel-caption {
+    background-color: #ffffff66;
+}
+
+.price {
+    color: rgb(233, 108, 62);
+}
+
+.rating-stars {
+    color: rgb(232, 181, 72);
+}
+
+.product-item {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.product-item:hover {
+    transform: scale(1.1);
+}
+
+.product-item img {
+    height: 250px;
+}
+
+.like,
+.liked {
+    z-index: 10;
+    top: 1rem;
+    left: 2rem;
+    font-size: 2rem;
+    color: gray;
+}
+
+.liked {
+    opacity: 0;
+    z-index: 11;
+}
+
+.like:hover {
+    opacity: 0;
+    /* z-index: 11; */
+}
+
+.liked:hover {
+    color: red;
+    opacity: 1;
+
+}
+
+.footer-items h5 {
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-items ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+.footer-items a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-items a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.subscribe input,
+.subscribe button {
+    border-radius: 0px;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 1.5rem;
+    width: 24px;
+    height: 24px;
+}
+
+.social-icons i:before {
+    vertical-align: text-top;
+    top: -0.2rem;
+    position: relative;
+}
+
+.social-icons button {
+    border-radius: 50% !important;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 5px;
+}
+
+/* product.html*/
+
+.breadcrumb {
+    background-color: #eee;
+}
+
+.product-small img {
+    max-width: 10rem;
+    padding: 1rem;
+}
+
+.color-lable {
+    border-radius: 50% !important;
+    margin: 5px;
+}
+
+.color-lable i {
+    opacity: 0;
+}
+
+.btn-check:checked+.color-lable i {
+    opacity: 1;
+}
+
+.text-small {
+    font-size: 0.8rem;
+}
+
+.accordion-body {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.accordion-button {
+    padding: 5px;
+    background-color: #ccc;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: black;
+    color: white;
+}
+
+/*cart.html*/
+
+.cart-item,
+.order {
+    border: 1px solid gray;
+}
+
+.close i {
+    font-size: 1.5rem;
+}
+
+.close i:hover {
+    color: red;
+}
+
+/*login page*/
+
+.login-box {
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+/*success page*/
+
+.success-icon {
+    font-size: 10rem;
+}
+
+/* toast */
+.toast {
+    top: -50px;
+}
+
+.toast.show {
+    top: 0px;
+}
